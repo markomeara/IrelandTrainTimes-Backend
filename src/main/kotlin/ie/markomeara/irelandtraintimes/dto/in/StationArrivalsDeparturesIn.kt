@@ -1,8 +1,8 @@
-package ie.markomeara.irelandtraintimes.dto
+package ie.markomeara.irelandtraintimes.dto.`in`
 
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement
 
-interface StationArrivalsDeparturesResponse {
+interface StationArrivalsDeparturesIn {
     @JacksonXmlRootElement(localName = "ArrayOfObjStationData")
     data class StationArrivalsDeparturesRootDto (
         val stationDataList: List<TrainPassingDto>
