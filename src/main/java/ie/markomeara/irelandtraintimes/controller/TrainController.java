@@ -3,7 +3,6 @@ package ie.markomeara.irelandtraintimes.controller;
 import ie.markomeara.irelandtraintimes.TrainPositionNotFoundException;
 import ie.markomeara.irelandtraintimes.domain.Station;
 import ie.markomeara.irelandtraintimes.domain.TrainPositionInfo;
-import ie.markomeara.irelandtraintimes.dto.out.CoordinateDto;
 import ie.markomeara.irelandtraintimes.dto.out.TrainPositionInfoDto;
 import ie.markomeara.irelandtraintimes.mapper.DomainToOutboundDtoKt;
 import ie.markomeara.irelandtraintimes.service.StationClient;

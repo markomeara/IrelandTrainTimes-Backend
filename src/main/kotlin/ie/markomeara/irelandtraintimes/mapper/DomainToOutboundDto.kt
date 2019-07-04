@@ -19,5 +19,5 @@ fun Coordinate.toOutboundDto(): CoordinateDto {
 }
 
 fun Station.toOutboundDto(): StationDto {
-    return StationDto(code, names.alias ?: names.description, location.toOutboundDto())
+    return StationDto(code, names.description, location.toOutboundDto())
 }
